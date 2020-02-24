@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="portfolio.css">
+        <!--FontAwesame-->
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+        <!--jQuery-->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Moegi's portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="image" style="background-image:url(fruit.jpg);">
+                    <div class="inner-text text-center">
+                    <h1>MyPortfolio</h1>
+                        <h3>Thank you for watching MyPortfolio!!</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div class="main-wrapper">
+                <!--タブ部分-->
+                 <ul class="nav nav-tabs nav-fill flex-colum flex-sm-row" id="myTab" role="tablist">
+                    <li class="nav-item tabon1 taboff1"><h4 class="flex-sm-fill nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true"><i class="far fa-user"></i>Profile</h4></li>
+                    <li class="nav-item tabon2 taboff2"><h4 class="flex-sm-fill nav-link " id="skills-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="false"><i class="fas fa-pen"></i>Skills</h4></li>
+                    <li class="nav-item tabon3 taboff3"><h4 class="flex-sm-fill nav-link " id="product-tab" data-toggle="tab" href="#product" role="tab" aria-controls="product" aria-selected="false"><i class="far fa-folder"></i>Product</h4></li>
+                    <li class="nav-item tabon4 taboff4"><h4 class="flex-sm-fill nav-link " id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="far fa-envelope"></i>Contact</h4></li>
+                </ul>
+                <!--パネル部分-->
+                <div class="tab-content mt-3" id="myTabContent">
+                    <div class="tab-pane show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="text-center">
+                            <h1>Profile</h1>
+                            <div class="text-center image-face">
+                                <div class="image-face text-center"><img src="face.jpeg" class="img-thumbnail rounded-circle" id="circle" alt="顔写真"></img></div>
+                            </div>
+                            <p class="text-justify">「経済面において困っている人を支えられる人になりたい」と現在の会社へ入社し営業事務として働いています。</p>
+                            <p class="text-justify">代理店や契約者と接していく内に万が一のことが起こる前に予防するための知識を得る方法を知る力をより多くの人に知ってもらうことが大切ではないかと考えるようになりました。</p>
+                            <p class="text-justify">そこで保険等金融商品を組み込んだ財産の構築の仕方をシンプルに考えられる家計簿アプリがあるといいのにと思いプログラミングに興味を持ちました。</p>
+                            <p class="text-justify">勉強を通して身に付けた技術を使い、より多くの人に役に立てるエンジニアを目指しています。</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                        <h1>Skills</h1>
+                        <h3>営業事務</h3>
+                        <ol>
+                            <li>説明力</li>
+                            <li>対応力</li>
+                            <li>自走力</li>
+                        </ol>
+                        <h3>プログラミング</h3>
+                        <ol>
+                            <li>フロントエンド：HTML/CSS,Javascript,Bootstrap</li>
+                            <li>バックエンド：Java</li>
+                        </ol>
+                    </div>
+                    <div class="tab-pane" id="product" role="tabpanel" aria-labelledby="product-tab">
+                        <h1>Product</h1>
+                    </div>
+                    <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+            </div>
+        <footer>
+            <p class="text-center">@ 2020 Moegi Tagawa</p>
+        </footer>
+    </body>
+</html>

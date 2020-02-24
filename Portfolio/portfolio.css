@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*header*/
+.image {
+    width: 100%;
+    height: 400px;
+    display: table;
+    background-position: center;
+    background-size: cover;
+}
+.inner-text {
+    display: table-cell;
+    vertical-align: middle;/*bottomで下に持っていく*/
+}
+
+.inner-text h1 {
+    color: lightgreen;
+    font-size: 130px;
+}
+.inner-text h3{
+    color:#b7407c;
+}
+
+.d-inline {
+    font-size: 30px;
+    padding: 0px 20px 0px 20px;
+}
+/*wrapper*/
+.main-wrapper {
+    width: auto;
+}
+.nav-link {
+    background-color: #ddf3f3;
+}
+.nav-link:hover {
+    background-color: lightgreen;
+}
+
+.nav-item > a:active {
+    background-color:red; /*javascript系の工夫?*/
+}
+/*Profile*/
+#profile {
+    height:300px;
+    margin: 0px 40px 0px 40px;
+}
+.image-face {
+    height:200px;
+    width:130px;
+    float:left;
+    margin-right: 30px;
+}
+/*footer*/
+footer { 
+    background-color: #ddf3f3;
+    padding: 20px 0px 20px 0px;
+}
+
+    
